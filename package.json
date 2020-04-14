@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "pm2 start ./server/server.js",
-    "devStart": "nodemon ./server/server.js"
+    "devStart": "nodemon ./server/server.js",
+    "bombard": "artillery run art_stress.yml"
   },
   "dependencies": {
     "express": "^4.17.1",
