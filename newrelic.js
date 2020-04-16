@@ -10,7 +10,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['EBDBBnB PROXY'],
+  app_name: ['EBDBBnB PROXY Deployed'],
   /**
    * Your New Relic license key.
    */

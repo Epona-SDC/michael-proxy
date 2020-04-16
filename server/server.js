@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(__dirname + '/../public'));
 
 app.post('/api/review', (req, res) => {
-  const passAlongUrl = 'http://localhost:3001/api/review';
+  const passAlongUrl = 'http://172.31.37.251:3001/api/review';
   req.pipe(request(passAlongUrl)).pipe(res);
 });
 
