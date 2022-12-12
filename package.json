@@ -12,7 +12,7 @@
     "bombard": "artillery run art_stress.yml"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "newrelic": "^6.5.0",
     "request": "^2.88.2"
   },
